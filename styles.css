@@ -1,0 +1,98 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: 'poppins';
+}
+.container{
+    width: 95%;
+    margin: auto;
+}
+/* navigation starts here */
+.navigation{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #2146c7;
+}
+.logo{
+    padding-left: 40px;
+    font-size: larger;
+    color: white;
+    width: 17%;
+    background-color: #282b51;
+    font-weight: 700;
+    line-height: 60px;
+    height: 60px;
+}
+.userlogin img{    
+    height: 45px;
+    width: 45px;
+    border-radius: 100%;
+    margin-top: 8px;
+    float: right;
+    margin-right: 50px;
+}
+
+.user-logout{
+    font-family: "poppins";
+    background-color: #11133e;
+    background-size: cover;
+    padding: 10px;
+    position: relative;
+    z-index: 1;
+    margin-right: 10px;
+    float: right;
+}
+.userlogin a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
+.userlogin button{
+    border: none;
+}
+/* navigation ends here */
+
+/* banner dashboard starts here */
+.dashboard{
+    width: 20%;
+    height: 85vh;
+    background-color: #11133e;
+    /* display: flex; */
+    padding-top: 6vh;
+}
+.line{
+    /* margin-top: 20px; */
+    width: 5px;
+    height: 30px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: white;
+}
+
+.students-icon,.examiner-icon,.queries-icon{
+    padding-top: 5px;
+    padding-left: 30px;
+    font-size: 20px;
+}
+
+.students-links a,.examiner-links a,.queries-links a{
+    padding-bottom: 15px;
+    display: flex;
+    color: white;
+    font-weight: 600;   
+    text-decoration: none;
+    /* padding-top: 5px;  */
+    padding-left: 10px;
+}
+.students-links p,.examiner-links p,.queries-links p{
+    padding-top: 2px;
+    padding-left: 10px;
+    color: #596075;
+}
+.admin-student_dashboard,.admin-examiner_dashboard,.admin-queries_dashboard{
+    display: flex;
+}
