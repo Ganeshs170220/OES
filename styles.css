@@ -73,13 +73,13 @@ body{
     background-color: white;
 }
 
-.students-icon,.examiner-icon,.queries-icon,.student-dashboard-icon,.student-tests-icon,.student-analysis-icon,.student-support-icon,.student-settings-icon{
+.admin-students-icon,.admin-examiner-icon,.admin-queries-icon,.student-dashboard-icon,.student-tests-icon,.student-analysis-icon,.student-support-icon,.student-settings-icon{
     padding-top: 5px;
     padding-left: 30px;
     font-size: 20px;
 }
 
-.students-links a,.examiner-links a,.queries-links a,.student-links a,.student-tests_links a,.student-analysis_links a,.student-queries_links a,.student-settings_links a{
+.admin-students-links a,.admin-examiner-links a,.admin-queries-links a,.student-links a,.student-tests_links a,.student-analysis_links a,.student-queries_links a,.student-settings_links a{
     padding-bottom: 15px;
     display: flex;
     color: white;
@@ -88,7 +88,7 @@ body{
     /* padding-top: 5px;  */
     padding-left: 10px;
 }
-.students-links p,.examiner-links p,.queries-links p,.student-links p,.student-tests_links p,.student-analysis_links p,.student-queries_links p,.student-settings_links p{
+.admin-students-links p,.admin-examiner-links p,.admin-queries-links p,.student-links p,.student-tests_links p,.student-analysis_links p,.student-queries_links p,.student-settings_links p{
     padding-top: 2px;
     padding-left: 10px;
     color: #596075;
