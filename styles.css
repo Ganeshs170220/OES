@@ -58,7 +58,7 @@ body{
 
 /* banner dashboard starts here */
 .dashboard{
-    width: 20%;
+    width: 100%;
     height: 85vh;
     background-color: #11133e;
     /* display: flex; */
@@ -105,4 +105,28 @@ body{
 }
 .examiner-settings_dashboard{
     margin-top: 46vh;
+}
+.dashboard_container{
+  width: 100%;
+  height: 85vh;
+  display: flex;
+
+}
+.dashboard_left_container{
+    width: 20%;
+    height: 85vh;
+}
+.dashboard_right_container{
+    width: 80%;
+    height: 91vh;
+    /* background-color: rebeccapurple; */
+}
+/* object{
+    height: 91vh;
+    width: 100%;
+} */
+.wd{
+    width: 100%;
+    height: 90%;
+    padding-top: 5vh; 
 }
