@@ -120,17 +120,23 @@ h1{
 .sfield {
     float: right;
     margin-top: 5px ;
-    margin-right: 3rem;
+    margin-right: 35px;
     font: 8pt;
     color: #fff;
     font-weight: 400;
     height: 20px;
     padding: 0;
     background: transparent;
-    border: none;
-    max-width: 125px
+    /* border: none; */
+    max-width: 125px;
+    border: 0px;
 }
-
+.sfield:focus{
+    outline: none;
+}
+::placeholder{
+    color: white;
+}
 .table_container{
     background-color: #d7dadf;
     height: auto;
@@ -148,7 +154,12 @@ td, th {
     text-align: left;
     padding: 8px;
 }
-
+.search-icon{
+    color: white;
+   margin-left: 15px;
+   margin-top: 5px;
+   font-size: 16px;
+}
 button {
     border: none;
     color: white;
@@ -193,8 +204,9 @@ button {
                 <h1>Total Count :</h1>
                 <h1>Export CSV</h1>
                 <div class="search-bar">
-                    <input type="image" class="searchbutton" src="./images/search.svg" alt="Search">
-                    <input type="text" class="sfield" value="Search...">  
+                    <!-- <input type="image" class="searchbutton" src="./images/search.svg" alt="Search"> -->
+                    <i class="fa fa-search search-icon"></i>
+                    <input type="text" placeholder="Search..." class="sfield" >  
                 </div>  
             </div>
             <div class="table_container">
